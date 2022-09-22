@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Traps : MonoBehaviour
 {
@@ -10,7 +12,7 @@ public class Traps : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             Destroy(collision.gameObject);
-            Debug.Log("Mission Fail");
+            SceneManager.LoadScene("GameOverScene");
         }
     }
 }
