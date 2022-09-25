@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
     public float JumpForce = 1f;
     private Rigidbody2D _rigidbody;
 
+    public Animator animator;
+
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
@@ -29,10 +31,13 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector2(1, 1);
         }
 
-        //jumping
+        //jumping & animation
         if (Input.GetButtonDown("Jump") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
         {
             _rigidbody.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
         }
+
+        //animation
+        
     }
 }
