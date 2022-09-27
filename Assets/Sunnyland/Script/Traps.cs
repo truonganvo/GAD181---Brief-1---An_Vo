@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Traps : MonoBehaviour
 {
+    public GameObject Camera;
     [SerializeField] GameObject Player;
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -13,6 +14,7 @@ public class Traps : MonoBehaviour
         {
             Destroy(collision.gameObject);
             SceneManager.LoadScene("GameOverScene");
+            Camera.GetComponent<CameraController>().enabled = false;
         }
     }
 }
