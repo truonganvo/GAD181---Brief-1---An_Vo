@@ -6,16 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class CountDown10Sec : MonoBehaviour
 {
-    public float currentTime = 0f;
-    public float startingTime = 10f;
+    public float currentTime;
 
     public TextMeshProUGUI countDownText;
 
     private void Start()
     {
-        currentTime = startingTime;
+        currentTime = 10f;
     }
-
     private void Update()
     {
         currentTime -= 1 * Time.deltaTime;
@@ -27,4 +25,13 @@ public class CountDown10Sec : MonoBehaviour
             SceneManager.LoadScene("Restart");
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            currentTime = 10f;
+        }
+    }
 }
+

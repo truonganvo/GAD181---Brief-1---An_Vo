@@ -7,6 +7,6 @@ public class GameState : MonoBehaviour
 {
     public void Restart()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
