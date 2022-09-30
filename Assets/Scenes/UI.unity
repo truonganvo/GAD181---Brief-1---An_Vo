@@ -236,7 +236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: -183}
+  m_AnchoredPosition: {x: -309, y: -90}
   m_SizeDelta: {x: 290, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &183899944
@@ -358,7 +358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: -180}
+  m_AnchoredPosition: {x: 3, y: -219}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &289403034
@@ -504,7 +504,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9, y: -373}
+  m_AnchoredPosition: {x: 329, y: -93}
   m_SizeDelta: {x: 290, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &306430216
@@ -969,7 +969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -10, y: 4}
+  m_AnchoredPosition: {x: 17, y: 62}
   m_SizeDelta: {x: 290, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &484744730
@@ -1292,7 +1292,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 202}
+  m_AnchoredPosition: {x: 17, y: 241}
   m_SizeDelta: {x: 889.9963, y: 145.3858}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &656095445
@@ -1587,20 +1587,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Level Creation
+  m_text: 'Members and Roles:
 
-    An Vo
+    An - Coding, Level Creation, Gameplay
+
+    Samantha
+    - UI Design, Level Design, PlayTest
 
 
     Audio Source
 
-    ABE (feat. Abagale Fischer)
+    ABE (feat. Abagale
+    Fischer)
 
     Fixing...
 
 
-    Asset
-    Source
+    Asset Source
 
     SunnyLand
 
@@ -2593,7 +2596,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 801, y: -408}
+  m_AnchoredPosition: {x: 9, y: -222}
   m_SizeDelta: {x: 290, y: 128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1734436878
