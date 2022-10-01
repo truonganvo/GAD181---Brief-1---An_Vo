@@ -17,26 +17,32 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        //movement with transition
+        //movement with transition & animation
         var movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * MovementSpeed;
 
         if (Input.GetKey(KeyCode.A))
         {
             transform.localScale = new Vector2(-1, 1);
+            animator.SetBool("running", true);
         }
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
             transform.localScale = new Vector2(1, 1);
+            animator.SetBool("running", true);
+        }
+        else
+        {
+            animator.SetBool("running", false);
         }
 
-        //jumping & animation
+        //jumping
         if (Input.GetButtonDown("Jump") && Mathf.Abs(_rigidbody.velocity.y) < 0.001f)
         {
             _rigidbody.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse);
         }
 
-        //animation
+        
         
     }
 

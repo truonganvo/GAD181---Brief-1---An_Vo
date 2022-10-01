@@ -16,6 +16,6 @@ public class Finish : MonoBehaviour
 
     private void LoadLevel()
     {
-        SceneManager.LoadScene("Next Level Scene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
     }
 }
