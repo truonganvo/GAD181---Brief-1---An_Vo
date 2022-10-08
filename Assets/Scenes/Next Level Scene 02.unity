@@ -237,6 +237,7 @@ GameObject:
   - component: {fileID: 788937890}
   - component: {fileID: 788937889}
   - component: {fileID: 788937888}
+  - component: {fileID: 788937891}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -262,7 +263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000024796, y: -41}
+  m_AnchoredPosition: {x: 0.000024796, y: -163}
   m_SizeDelta: {x: 197.3083, y: 59.8466}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &788937888
@@ -308,7 +309,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 788937889}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 788937891}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &788937889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,6 +360,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788937886}
   m_CullTransparentMesh: 1
+--- !u!114 &788937891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 788937886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221f4ad13d1a5c542817011986ed2a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &791889808
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,7 +407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517, y: 91.666}
+  m_AnchoredPosition: {x: 0.000030517, y: 41}
   m_SizeDelta: {x: 680.4771, y: 183.3325}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &791889810
@@ -407,13 +432,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'You somehow made it
 
-    It''s felt weird
+    Is not over yet...
 
-    Like there was !@#$% reset
-    the time to give you... a second chance?'
+    Don''t hesitate cause
+    ain''t nobody have time for it'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a51c410574815e43b722299e5519948, type: 2}
+  m_sharedMaterial: {fileID: 2638070364562690050, guid: 8a51c410574815e43b722299e5519948,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -437,8 +463,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -473,7 +499,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 1.0082397}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -629,7 +655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Furture Update???
+  m_text: Next Level
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
