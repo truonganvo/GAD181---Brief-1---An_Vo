@@ -15,4 +15,9 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quit Button work");
         Application.Quit();
     }
+    
+    public void mainMenu()
+    {
+        SceneManager.LoadScene("UI");
+    }
 }
