@@ -1385,7 +1385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SunnyLand
+  m_text: Go!Go!Go
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a51c410574815e43b722299e5519948, type: 2}
   m_sharedMaterial: {fileID: 2638070364562690050, guid: 8a51c410574815e43b722299e5519948,

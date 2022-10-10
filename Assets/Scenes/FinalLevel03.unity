@@ -267,8 +267,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back to the Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a51c410574815e43b722299e5519948, type: 2}
+  m_sharedMaterial: {fileID: 2638070364562690050, guid: 8a51c410574815e43b722299e5519948,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -380,8 +381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000026703, y: -123.3193}
-  m_SizeDelta: {x: 220.9992, y: 48.6386}
+  m_AnchoredPosition: {x: -0.0000019073, y: -105.07}
+  m_SizeDelta: {x: 257.5042, y: 77.8426}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1371930518
 MonoBehaviour:
@@ -423,7 +424,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1371930519}
+  m_TargetGraphic: {fileID: 1067641728}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -459,8 +460,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: dad1da2ca9b01964288f231323af48ec, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -694,8 +695,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000026703, y: 0.0000014901}
-  m_SizeDelta: {x: 710.0214, y: 132.3056}
+  m_AnchoredPosition: {x: -10.221401, y: 0.0000014901}
+  m_SizeDelta: {x: 689.5787, y: 132.3056}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2014958059
 MonoBehaviour:
@@ -719,8 +720,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Well Done! \nThank You for playtesting our prototype game \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a51c410574815e43b722299e5519948, type: 2}
+  m_sharedMaterial: {fileID: 2638070364562690050, guid: 8a51c410574815e43b722299e5519948,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
